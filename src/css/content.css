@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.card{
+    @apply relative rounded-md overflow-hidden shadow-md bg-gray-100 border
+}
+.badge{
+    @apply flex flex-row absolute top-0 text-red-700 rounded-full bg-gray-300 p-1 mt-5 ml-5
+}
+.sidebar-left{
+    @apply  md:col-span-1  flex flex-col justify-around text-gray-500 text-lg p-3 hover:text-gray-900 bg-gray-100 rounded-lg mx-5 w-auto
+}

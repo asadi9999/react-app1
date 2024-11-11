@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+.show{
+    @apply visible flex flex-col gap-5 bg-black md:flex-row items-center z-50 transition-all duration-1000 h-fit w-full p-5 shadow-xl md:shadow-none
+   font-bold
+}
+.hide{
+    @apply hidden md:flex flex-row gap-5 items-center ml-10 duration-1000 z-0
+} 
